@@ -1,0 +1,26 @@
+body {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Silkscreen", cursive;
+  line-height: ;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+h1 {
+  font-size: px;
+}
+/* span {
+  font-family: Arial, Helvetica, sans-serif ;
+} */
+
+.about {
+    display: inline-block;
+    
+}
+.about1 {
+    display: inline-block;
+    padding: 20px 20px;
+    width: 25%;
+    text-align: top;
+    
+}
