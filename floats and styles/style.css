@@ -1,0 +1,124 @@
+.container {
+    max-width: 900px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container:before {
+    content: "Before";
+    color: aliceblue;
+}
+.container:after {
+    content: "";
+    color: aliceblue;
+    clear: both;
+    width: 100%;
+    display: block;
+
+}
+p {
+    margin: 0;
+}
+
+.box {
+    line-height: 24px;
+    height: 100px;
+    width: 100px;
+    background: green;
+    float: right;
+}
+.box2 {
+    width: 100%;
+    background-color: pink;
+    float: none; 
+}
+.box3 {
+    float: left;
+    background-color: blue;
+
+}
+.box3:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.box-wrap {
+    float:right ;
+}
+a {
+    transition: 5s;
+}
+a:hover {
+    text-decoration: none;
+    color: red;
+    font-size: 2em;
+    transition: all .5s;
+}
+
+a:focus {
+    outline: 0;
+    box-shadow: 0 0 5px 3px rebeccapurple ;
+}
+
+.box:nth-child(4) {
+    margin-top: -50px;
+}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid green;
+}
+tr:nth-child(odd) {
+    background-color: aqua;
+}
+tr:nth-child(even) {
+    background-color: brown;
+}
+tr:nth-child(1) td:nth-child(odd) {
+    background-color: chartreuse;
+} */
+
+ tr:nth-child(3n + 4) {
+    background-color: black;
+}
+tr:last-child td:last-child {
+    background-color: blueviolet;
+} 
+ only child   для одного эдемента в родителе */
+.box:empty
+td:empty {
+    background-color:red;
+}
+input[type="checkbox"]:checked+table  {
+    box-shadow: 2px 2px 5px 0 black;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 100px;
+}
+.menu>li {
+    float: left; 
+    position: relative;
+    padding: 0 15px;
+    width: calc(100%/3);
+    background-color: yellow;
+}
+.menu ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+.menu:after {
+    display: block;
+    clear: both;
+    left: 0;
+}
+.menu li:hover > ul {
+    display: block;
+} 

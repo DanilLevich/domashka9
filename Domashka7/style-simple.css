@@ -6,8 +6,6 @@ body {
   font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 26.25px;
-  background-color: ;
-  box-sizing: border-box;
   font-weight: 400;
 }
 .header {
@@ -144,7 +142,6 @@ li {
 .end p {
   font-size: 13px;
   line-height: 21.33px;
-  font-weight: 400px;
   color: white;
   width: 193px;
   height: 12px;

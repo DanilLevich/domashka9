@@ -13,10 +13,13 @@ body {
 }
 
 #wrapper {
-  width: 100%;
+  width: 1920px;
   position: relative;
   clear: both;
+  overflow: hidden;
 }
+
+
 
 .container {
   width: 100%;
@@ -91,7 +94,6 @@ h4 {
   background: white;
   border: 2px solid #f13c6e;
   border-radius: 40px;
-  font-weight: bold;
   transition: all 0.5s ease;
   margin-left: 40px;
   margin-top: 15px;
@@ -110,26 +112,28 @@ h4 {
   color: black;
 }
 
-.menu {
+.menu  {
   text-align: center;
   padding: 1em;
   color: black;
 }
 
-.menu li {
+.menu li  {
   display: inline-block;
   padding: 0 1em;
+  color: black;
 }
 
-.one li a {
-  font-size: 16px;
+.menu li a {
   color: black;
+  font-size: 16px;
 }
 
 .container_menu {
   border-top: 1px solid #e5e5e5;
   padding-top: 20px;
 }
+
 
 .first {
   float: left;
